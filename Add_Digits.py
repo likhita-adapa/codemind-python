@@ -6,4 +6,4 @@ while n//10!=0:
         sum=sum+r
         n=n//10
     n=sum
-print(sum)
+print(sum)    
