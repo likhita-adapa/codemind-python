@@ -8,4 +8,4 @@ while n!=0:
 if len(set(Ist))==len(Ist):
     print("Unique Number")
 else:
-    print("Not Unique Number")
+    print("Not Unique Number")   
