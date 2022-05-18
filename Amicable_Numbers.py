@@ -12,4 +12,3 @@ if(a==n2 and b==n1):
     print("Amicable")
 else:
     print("Not Amicable")
-    
