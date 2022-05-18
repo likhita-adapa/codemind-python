@@ -9,4 +9,4 @@ n=n%(pow(10,c))
 if(temp==n):
     print('Automorphic Number')
 else:
-    print('Not an Automorphic Number')
+    print('Not an Automorphic Number')  
