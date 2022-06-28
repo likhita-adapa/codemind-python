@@ -1,0 +1,5 @@
+s=input()
+n1=int(input())
+n2=int(input())
+sl=slice(n1,n2+1)
+print(s[sl])
