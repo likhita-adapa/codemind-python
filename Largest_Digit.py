@@ -5,4 +5,4 @@ while n>0:
     if max<dig:
         max=dig
     n=n//10
-print(max)        
+print(max)      
