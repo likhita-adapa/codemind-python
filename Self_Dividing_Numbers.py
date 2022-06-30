@@ -10,4 +10,4 @@ for i in range(a,b+1):
             break
         temp=temp//10
     if temp==0:
-        print(i,end=' ')  
+        print(i,end=' ')
