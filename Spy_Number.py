@@ -9,4 +9,4 @@ while(n>0):
 if(s==p):
     print("Spy Number")
 else:
-    print("Not Spy Number")        
+    print("Not Spy Number")
