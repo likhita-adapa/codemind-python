@@ -6,4 +6,3 @@ for j in range(n):
         s[i]=s[i]+m[i]
 for k in s:
     print(k,end=' ')
- 
