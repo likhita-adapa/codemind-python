@@ -4,4 +4,4 @@ while(i!=j):
      i=i-j
   else:
      j=j-i
-print(i)            
+print(i)
