@@ -1,9 +1,4 @@
 n=int(input())
-while n//10!=0:
-    sum=0
-    while n>0:
-        r=n%10
-        sum=sum+r
-        n=n//10
-    n=sum
-print(sum)    
+def add(n):
+    return (n-1)%9+1 if n>0 else 0
+print(add(n))
