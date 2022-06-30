@@ -20,4 +20,3 @@ for i in range(1,n):
 
 if x==0:
     print("-1")
-        
