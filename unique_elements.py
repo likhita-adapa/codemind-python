@@ -1,4 +1,4 @@
-n=int(input())
-a=list(map(int,input().split()))
-for i in sorted(set(a),key=a.index):
-    print(i,end=' ')
+x=int(input())
+l=list(map(int,input().split()))
+l=sorted(set(l),key=l.index)
+print(*l)
