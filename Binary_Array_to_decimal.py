@@ -1,8 +1,8 @@
-n=int(input())
-a=list(map(int,input().split()))
-j=0
-c=0
-for i in range(n-1,-1,-1):
-    c+=(a[i]*(2**j))
-    j+=1
-print(c)
+x=int(input())
+y=list(map(int,input().split()))
+i=0
+s=0
+for j in range(x-1,-1,-1):
+    s+=(2**i)*y[j]
+    i+=1
+print(s)
