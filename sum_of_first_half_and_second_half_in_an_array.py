@@ -1,10 +1,9 @@
-n=int(input())
-a=list(map(int,input().split()))
-s=0
-c=0
-for i in range(0,n//2):
-    s=s+a[i]
+x=int(input())
+l=list(map(int,input().split()))
+s,m=0,0
+for i in range(x//2):
+    s+=l[i]
+for i in range(x//2,x):
+    m+=l[i]
 print(s)
-for j in range((n//2),n):
-    c+=a[j]
-print(c)
+print(m)
