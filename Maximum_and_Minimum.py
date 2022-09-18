@@ -1,12 +1,11 @@
-n=int(input())
-a=list(map(int,input().split()))
-l=[]
-c=0
-for i in sorted(set(a),key=a.index):
-    if a.count(i)==i:
-        l.append(i)
-        c=1
-if c==0:
+x=int(input())
+l=list(map(int,input().split()))
+a=[]
+for i in l:
+    if i==l.count(i):
+        a.append(i)
+if a==[]:
     print('-1')
 else:
-    print(min(l),max(l))
+    print(min(a),end=' ')
+    print(max(a),end=' ')
