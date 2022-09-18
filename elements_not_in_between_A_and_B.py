@@ -11,3 +11,6 @@ if k==[]:
     print('-1')
 else:
     print(*k)
+    
+    
+    
