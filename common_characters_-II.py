@@ -1,10 +1,12 @@
+
 x = input().lower()
 y = input().lower()
-x = set(x)
-y = set(y)
-s=0
+l=[]
+c=0
 for i in x:
-    if i!=' ':
-        if i in y:
-            s+=1
-print(s)
+    if i in y:
+        l.append(i)
+for j in sorted(set(l)):
+    if j!=' ':
+        c+=1
+print(c)
