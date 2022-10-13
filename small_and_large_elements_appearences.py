@@ -1,7 +1,11 @@
-s=input()
-x=s.replace(" ","")
-mi=min(x)
-ma=max(x)
-c1=s.count(mi)
-c2=s.count(ma)
-print(mi,c1,ma,c2,end=' ')
+x = input()
+l=[]
+for i in x:
+    if i.isalnum():
+        l.append(i)
+n = max(l)
+m=min(l)
+print(m,end=" ")
+print(l.count(m),end=" ")
+print(n,end=" ")
+print(l.count(n))
