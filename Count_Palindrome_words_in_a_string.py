@@ -1,12 +1,9 @@
-def Pal(s):
-    if s.lower() == s.lower()[::-1]:
-        return True
-def countPal(str):
-    count = 0
-    l=str.split(" ")
-    for i in l:
-        if (Pal(i)):
-            count += 1
-    print (count)
-s=input()
-countPal(s)
+s=list(map(str,input().split()))
+c=0
+for i in s:
+    m=i.lower()
+    n=m[::-1]
+    if m==n:
+        c+=1
+
+print(c)
