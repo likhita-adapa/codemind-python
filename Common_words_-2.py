@@ -1,15 +1,9 @@
-a = list(map(str,input().lower().split()))
-b = list(map(str,input().lower().split()))
-s=0
-l=[]
-m=[]
-for i in a:
-    if a.count(i)==1:
-        l.append(i)
-for i in b:
-    if b.count(i)==1:
-        m.append(i)
-for i in l:
-    if i in m:
-        s+=1
-print(s)
+s1=input().lower()
+s2=input().lower()
+s3=s1.split(' ')
+s4=s2.split(' ')
+c=0
+for i in range(0,len(s3)):
+    if s3[i] in s4 and s1.count(s3[i])==s2.count(s3[i]):
+        c+=1
+print(c)
