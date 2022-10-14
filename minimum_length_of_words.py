@@ -1,5 +1,5 @@
-s=input()
-x=s.split(' ')
+x = list(map(str,input().split()))
+b=[]
 for i in x:
-    print(len(i))
-    break
+    b.append(len(str(i)))
+print(min(b))
