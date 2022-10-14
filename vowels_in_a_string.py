@@ -1,12 +1,15 @@
 s=input()
-ch=input()
-f=0
-m=0
+x=input()
+c=0
+p=0
 for i in range(len(s)):
-    if s[i] in ch:
-        f=1
-if f==1:
+    if x ==s[i]:
+        c=1
+        p=i
+        break
+if c==1:
     print('True')
-    print(s.index(ch))
+    print(p)
 else:
     print('False')
+    
