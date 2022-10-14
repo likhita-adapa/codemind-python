@@ -1,6 +1,5 @@
-s=input()
-x=s.split(' ')
-l=[]
+x = list(map(str,input().split()))
+b=[]
 for i in x:
-    l.append(len(i))
-print(max(l))
+    b.append(len(i))
+print(max(b))
